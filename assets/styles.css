@@ -70,7 +70,8 @@
     padding-bottom: 15px;
     margin-left: 10px;
 }
-.content{
+
+.content {
     display: inline-block;
     border: 2px solid #494343;
     position: relative;
@@ -79,7 +80,8 @@
     width: 95%;
     height: 90%;
 }
-.mito-pfp{
+
+.mito-pfp {
     width: 150px;
     right: 5px;
     float: right;
@@ -89,35 +91,117 @@
 
 }
 
-.your-vote{
+.your-vote {
     margin-top: 5px;
     margin-left: 6px;
     font-weight: 500;
 }
-.text-presidente{
+
+.text-presidente {
     margin-top: 40px;
     text-align: center;
     font-weight: 400;
     font-size: 30px;
 }
-.button{
+
+.button {
+    display: inline;
     font-size: 18px;
     margin-left: 7px;
     margin-bottom: 10px;
-    padding: 5px;
     border-right: 5px solid #181717;
     border-top: 2px solid #181717;
     border-left: 2px solid #181717;
     border-bottom: 2px solid #181717;
-
-
 }
-.branco{
+
+.branco {
+    margin-left: 10px;
+    padding: 10px;
     background-color: #dcdcdc;
 }
-.confirma{
+
+.confirma {
     background-color: #11da3c;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-inline: 6px;
 }
-.corrige{
+
+.corrige {
+    padding: 10px;
     background-color: rgb(240, 187, 140);
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.buttonn {
+    display: block;
+    font-size: 29px;
+    padding: 13px;
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    border-right: 5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    background-color: #181717;
+    color: wheat;
+}
+
+button:hover {
+    border-right: 2px solid black;
+}
+
+ul {
+    margin-top: 27px;
+    list-style: none;
+    display: inline-block;
+    font-size: 3.3vh;
+}
+
+.data-left {
+    position: absolute;
+    left: -25px;
+    padding-right: 20px;
+}
+
+.data-rigth {
+    position: absolute;
+    left: 150px;
+    font-size: 3.1vh;
+    margin-left: 20px;
+}
+
+li {
+    padding-bottom: 25px;
+}
+.number-mito{
+    padding: 13px;
+    border: 1px solid black;
+    display: inline;
+    margin: 5px
+}
+.data-list{
+    display: none;
+}
+.nome{
+    font-size: 3vh;
+    width: 80%;
+
+}
+.partido-left{
+    margin-top: 55px;
+}
+.partido{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.vice{
+    margin-top: 4px;
+    margin-left: 10px;
 }
